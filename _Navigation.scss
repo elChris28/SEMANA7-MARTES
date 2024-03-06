@@ -1,0 +1,33 @@
+.Navigation
+{
+    padding: 2rem 1rem;
+}
+
+.Navigation-list
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navigation-item
+{
+    list-style: none;
+    display: inline;
+}
+
+.Navigation-link
+{
+    text-decoration: none;
+    color: rgb(77, 76, 76);
+    border: 1px solid rgb(58, 57, 57);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.Navigation-link:hover
+{
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    transform: translateY(3%); 
+}
+

@@ -1,0 +1,25 @@
+.info1
+{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: default;
+}
+
+.info1 h1
+{
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+@media (max-width:500px)
+{
+    .info1
+    {
+       
+        
+        background-color: rgb(191, 224, 224);
+    }
+
+}

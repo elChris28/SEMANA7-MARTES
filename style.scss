@@ -1,0 +1,54 @@
+@use "Navigation";
+@use "info";
+@use "info2";
+
+*,
+*::before
+*::after
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(246, 230, 192);
+    color: rgb(74, 72, 72);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (max-width:500px )
+{ .Navigation
+    {
+        
+        
+        background-color: rgb(191, 224, 224);
+    }
+
+    .Navigation-list
+    {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        
+    }
+
+    .Navigation-link
+    {
+        border: 0;
+        border-bottom: 1px solid rgb(65, 65, 65);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .Navigation-link:hover
+    {
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    transform: translateY(3%); 
+    }
+
+
+}
+
+

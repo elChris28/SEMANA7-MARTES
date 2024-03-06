@@ -1,0 +1,25 @@
+.info2
+{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: default;
+}
+
+.info2 p
+{
+    line-height: 1.4;
+    color: gray;
+}
+
+@media (max-width:500px)
+{
+    .info2
+    {
+        
+        
+        background-color: rgb(191, 224, 224);
+    }
+
+}
